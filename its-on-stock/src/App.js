@@ -3,9 +3,13 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      Aqui empezamos a escribir codigo
-    </div>
+    <body>
+      <header>Hola</header>
+      <main>
+        index
+      </main>
+      <footer>Fotter</footer>
+    </body>
   );
 }
 
