@@ -1,0 +1,55 @@
+input {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+#nav {
+  background-color: #ffbf00;
+  color: #414A56;
+  width: 100%;
+  height: 3.5em;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#logo {
+  width: 15%;
+  height: 60%;
+  background-color: #414A56;
+}
+
+#search {
+  width: 50%;
+  height: 60%;
+}
+
+#search div, #search form, #search input {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+#sesion {
+  width: 20%;
+  height: 60%;
+}
+
+#sesion #buttonLogin, #sesion #buttonregister {
+  height: 100%;
+  padding: 0 1em;
+}
+
+#sesion #buttonLogin {
+  background-color: #414A56;
+  color: #ffffff;
+  border-top-right-radius: 1em;
+  border-bottom-right-radius: 1em;
+}
+
+#sesion #buttonregister {
+  background-color: #ffffff;
+  color: #414A56;
+  border-top-left-radius: 1em;
+  border-bottom-left-radius: 1em;
+}
