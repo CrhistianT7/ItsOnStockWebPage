@@ -1,15 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
 
+import Header from './Components/Header/header'
+
 function App() {
   return (
-    <body>
-      <header>Hola</header>
-      <main>
-        index
-      </main>
-      <footer>Fotter</footer>
-    </body>
+    <div>
+        <header>
+            <Header/>
+        </header>
+        <main>
+            index
+        </main>
+        <footer>Fotter</footer>
+    </div>
   );
 }
 
