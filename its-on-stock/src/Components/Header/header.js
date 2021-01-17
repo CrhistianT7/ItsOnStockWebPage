@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import logo from '../../../src/logo.svg';
 import './header.css';
 import '../../../src/css/normalize.css';
 
@@ -8,7 +7,6 @@ class Header extends Component{
         return(
             <nav id="nav">
                 <div id="logo">
-                    <logo/>
                 </div>
                 <div id="search">
                     <form>
